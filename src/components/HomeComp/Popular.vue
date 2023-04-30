@@ -1,6 +1,6 @@
 <template>
   <h1 class="text-center font-bold text-2xl">Popular Products</h1>
-  <section class="container mx-auto grid grid-cols-8 gap-5">
+  <section class="container mx-auto grid grid-cols-6 gap-5">
     <div class="card bg-base-100 shadow-xl">
       <div class="card-body">
         <h2 class="card-title">Card title!</h2>

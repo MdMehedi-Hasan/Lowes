@@ -11,6 +11,7 @@
         <input type="text" placeholder="Search" class="input input-bordered" />
       </div>
       <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-regular fa-circle-user"></i>
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
