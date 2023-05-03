@@ -23,12 +23,12 @@ img{
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img src="../../assets/banner.png" /></swiper-slide>
-      <swiper-slide><img src="../../assets/Network.png" /></swiper-slide>
-      <swiper-slide><img src="../../assets/fahim.png" /></swiper-slide>
-      <swiper-slide><img src="../../assets/1.png" /></swiper-slide>
-      <swiper-slide><img src="../../assets/2.png" /></swiper-slide>
-      <swiper-slide><img src="../../assets/3.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/banner.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/Network.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/fahim.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/1.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/2.png" /></swiper-slide>
+      <swiper-slide><img class="object-cover" src="../../assets/3.png" /></swiper-slide>
       <!-- <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></swiper-slide> -->
     </swiper>
   </div>

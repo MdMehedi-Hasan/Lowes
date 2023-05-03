@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from '../components/Common/Navbar.vue';
+import SubNavbar from '../components/Common/SubNavbar.vue'
 import Slider from '../components/HomeComp/Slider.vue'
 import Header from "../components/HomeComp/Header.vue";
 import DailyDeals from "../components/HomeComp/DailyDeals.vue";
@@ -11,6 +12,7 @@ import Footer from "../components/Common/Footer.vue";
 </script>
 <template>
   <Navbar />
+  <SubNavbar/>
   <Slider/>
   <!-- <Header /> -->
   <DailyDeals />
