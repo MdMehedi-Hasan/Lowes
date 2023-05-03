@@ -8,8 +8,23 @@
           <label for="">Category</label>
           <ul
             id="category-menu"
-            class="bg-base-100 w-52 p-2 absolute z-50 hidden">
-            <li><a>Fashion wear</a></li>
+            class="bg-base-100 w-52 p-2 absolute z-50 hidden"
+          >
+            <li>
+              <div id="fashion-wear" class="relative">
+                <label for="">Fashion wear</label>
+                <ul
+                  id="fashion-wear-menu"
+                  class="bg-base-100 w-52 absolute z-50 hidden left-full top-0">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 2</a></li>
+                  <li><a>Item 3</a></li>
+                  <li><a>Item 4</a></li>
+                  <li><a>Item 5</a></li>
+                  <li><a>Item 6</a></li>
+                </ul>
+              </div>
+            </li>
             <li><a>Health & beauty</a></li>
             <li><a>Watches & bags</a></li>
             <li><a>Baby & toys </a></li>
@@ -44,4 +59,9 @@
   display: block;
   position: absolute;
 }
+#fashion-wear:hover #fashion-wear-menu {
+  display: block;
+  position: absolute;
+}
+
 </style>
