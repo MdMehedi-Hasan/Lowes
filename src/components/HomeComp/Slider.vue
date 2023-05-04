@@ -23,9 +23,9 @@ img{
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img class="rounded-md"  src="../../assets/banner1.png" /></swiper-slide>
-      <swiper-slide><img class="rounded-md" src="../../assets/banner2.png" /></swiper-slide>
-      <swiper-slide><img class="rounded-md" src="../../assets/banner3.png" /></swiper-slide>
+      <swiper-slide><img class="rounded-md"  src="../../assets/Banners/banner1.png" /></swiper-slide>
+      <swiper-slide><img class="rounded-md" src="../../assets/Banners/banner2.png" /></swiper-slide>
+      <swiper-slide><img class="rounded-md" src="../../assets/Banners/banner3.png" /></swiper-slide>
       <!-- <swiper-slide><img class="object-cover" src="../../assets/fahim.png" /></swiper-slide> -->
       <!-- <swiper-slide><img class="object-cover" src="../../assets/1.png" /></swiper-slide> -->
       <!-- <swiper-slide><img class="object-cover" src="../../assets/2.png" /></swiper-slide> -->

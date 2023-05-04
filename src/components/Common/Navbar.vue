@@ -1,5 +1,3 @@
-<script setup>
-</script>
 <template>
   <div class="bg-red-100">
     <div class="container mx-auto navbar px-0">
