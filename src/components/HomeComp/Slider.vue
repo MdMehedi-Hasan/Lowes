@@ -1,9 +1,9 @@
 <style>
 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: 400px;
     width: 100%;
-    max-height: 400px;
+    max-height: 400px; */
 }
 </style>
 <template>
@@ -23,15 +23,19 @@ img{
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img class="object-cover" src="../../assets/banner.png" /></swiper-slide>
-      <swiper-slide><img class="object-cover" src="../../assets/Network.png" /></swiper-slide>
-      <swiper-slide><img class="object-cover" src="../../assets/fahim.png" /></swiper-slide>
-      <swiper-slide><img class="object-cover" src="../../assets/1.png" /></swiper-slide>
-      <swiper-slide><img class="object-cover" src="../../assets/2.png" /></swiper-slide>
-      <swiper-slide><img class="object-cover" src="../../assets/3.png" /></swiper-slide>
-      <!-- <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></swiper-slide> -->
+      <swiper-slide><img class="rounded-md"  src="../../assets/banner1.png" /></swiper-slide>
+      <swiper-slide><img class="rounded-md" src="../../assets/banner2.png" /></swiper-slide>
+      <swiper-slide><img class="rounded-md" src="../../assets/banner3.png" /></swiper-slide>
+      <!-- <swiper-slide><img class="object-cover" src="../../assets/fahim.png" /></swiper-slide> -->
+      <!-- <swiper-slide><img class="object-cover" src="../../assets/1.png" /></swiper-slide> -->
+      <!-- <swiper-slide><img class="object-cover" src="../../assets/2.png" /></swiper-slide> -->
+      <!-- <swiper-slide><img class="object-cover" src="../../assets/3.png" /></swiper-slide> -->
     </swiper>
   </div>
+  <!-- :autoplay="{
+      delay: 3500,
+      disableOnInteraction: false,
+    }" -->
 </template>
 <script>
 // Import Swiper Vue.js components
