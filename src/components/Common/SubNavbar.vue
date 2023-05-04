@@ -11,30 +11,46 @@
             class="bg-base-100 w-60 absolute z-50 hidden"
           >
             <li>
-              <div id="fashion-wear" class="relative p-4">
+              <div id="fashion-wear" class="relative p-4 hover:border-l-4 hover:border-blue-500">
                 <a for="">Fashion wear</a>
                 <ul
                   id="fashion-wear-menu"
                   class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2"
                 >
                   <li>
-                    <div id="men-wear" class="relative p-3">
+                    <div id="men-wear" class="relative p-3 hover:border-l-4 hover:border-blue-500">
                       <a>Men's wear</a>
                       <ul
                         id="men-wear-menu"
                         class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2"
                       >
-                        <li class="p-3"><a>Shirt</a></li>
-                        <li class="p-3"><a>Pant</a></li>
-                        <li class="p-3"><a>T-shirt</a></li>
-                        <li class="p-3"><a>Trouser</a></li>
-                        <li class="p-3"><a>Polo</a></li>
-                        <li class="p-3"><a>Shoes</a></li>
-                        <li class="p-3"><a>Sliders</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Shirt</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Pant</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>T-shirt</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Trouser</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Polo</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Shoes</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Sliders</a></li>
                       </ul>
                     </div>
                   </li>
-                  <li class="p-3"><a>Women's wear</a></li>
+                  <li>
+                    <div id="women-wear" class="p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Women's wear</a>
+                      <ul
+                        id="women-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Salwar kameez</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Saree</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Plazoo</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Scarf</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Hijab</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Shoes</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Flats</a></li>
+                      </ul>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -46,22 +62,6 @@
           </ul>
         </div>
       </li>
-      <!-- <li>
-        <div class="dropdown dropdown-hover">
-          <label>Test</label>
-          <ul
-            tabindex="0"
-            class="dropdown-content menu p-2 shadow bg-base-100 w-52 rounded"
-          >
-            <li><a>Item 1</a></li>
-            <li><a>Item 2</a></li>
-            <li><a>Item 3</a></li>
-            <li><a>Item 4</a></li>
-            <li><a>Item 5</a></li>
-            <li><a>Item 6</a></li>
-          </ul>
-        </div>
-      </li> -->
       <li><a href="" class="inline-block py-3">Blogs</a></li>
       <li><a href="" class="inline-block py-3">Customer Support</a></li>
     </ul>
@@ -80,6 +80,10 @@
   min-height: 336px;
 }
 #men-wear:hover #men-wear-menu {
+  display: block;
+  position: absolute;
+}
+#women-wear:hover #women-wear-menu {
   display: block;
   position: absolute;
 }
