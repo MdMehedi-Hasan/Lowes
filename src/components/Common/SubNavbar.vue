@@ -54,7 +54,93 @@
                 </ul>
               </div>
             </li>
-            <li class="p-4"><a>Health & beauty</a></li>
+            <li>
+              <div id="fashion-wear" class="p-4 hover:border-l-4 hover:border-blue-500">
+                <a for="">Health & beauty</a>
+                <ul
+                  id="fashion-wear-menu"
+                  class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2"
+                >
+                  <li>
+                    <div id="men-wear" class="relative p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Skin Care</a>
+                      <ul
+                        id="men-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2 min-h-336"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Face wash</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Toner</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Cream</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Lip balm</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Night cream</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="women-wear" class="p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Hair care</a>
+                      <ul
+                        id="women-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2 min-h-336"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Hair oils</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Hair treatments</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Shampoo</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Conditioner</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Hair cream</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="women-wear" class="p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Personal care</a>
+                      <ul
+                        id="women-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2 min-h-336"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Toothpaste</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Toothbrush</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Dental floss</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Mouthwash</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Sanitary napkins</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="women-wear" class="p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Makeup</a>
+                      <ul
+                        id="women-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2 min-h-336"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Face</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Eyes</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Lips</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Nails</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Makup sets</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Makup remover</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="women-wear" class="p-3 hover:border-l-4 hover:border-blue-500">
+                      <a>Fragrances</a>
+                      <ul
+                        id="women-wear-menu"
+                        class="bg-base-100 w-52 absolute z-50 hidden left-full top-0 border-l-2 min-h-336"
+                      >
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Men's perfume</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Men's body spray</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Women's perfume</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Women's body spray</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Attar</a></li>
+                        <li class="p-3 cursor-pointer hover:underline hover:text-blue-500"><a>Role on</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
             <li class="p-4"><a>Watches & bags</a></li>
             <li class="p-4"><a>Baby & toys </a></li>
             <li class="p-4"><a>Electronic device</a></li>
@@ -68,6 +154,9 @@
   </section>
 </template>
 <style>
+.min-h-336{
+  min-height: 336px;
+}
 #category:hover #category-menu {
   display: block;
   position: absolute;
