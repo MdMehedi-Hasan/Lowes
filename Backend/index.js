@@ -20,6 +20,10 @@ const client = new MongoClient(uri, {
   }
 });
 
+// Database collection list here
+const database = client.db("e-commerce")
+const allProducts = database.collection("all-products")
+
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
@@ -27,6 +31,26 @@ async function run() {
     // Send a ping to confirm a successful connection
     // await client.db("admin").command({ ping: 1 });
     console.log("You successfully connected to MongoDB!");
+    app.get('/all-products', async (req,res)=>{
+      const query = {};
+      const products = await allProducts.find(query).toArray();
+      res.send(products)
+    })
+    app.get('/hot-products', async (req,res)=>{
+      const query = {product_type:'hot'};
+      const products = await allProducts.find(query).toArray();
+      res.send(products)
+    })
+    app.get('/trending-products', async (req,res)=>{
+      const query = {product_type:'trending'};
+      const products = await allProducts.find(query).toArray();
+      res.send(products)
+    })
+    app.get('/popular-products', async (req,res)=>{
+      const query = {product_type:'popular'};
+      const products = await allProducts.find(query).toArray();
+      res.send(products)
+    })
   } finally {
     // Ensures that the client will close when you finish/error
     // await client.close();
