@@ -1,5 +1,10 @@
-<script setup>
-  import ProductCard from '../Common/ProductCard.vue'
+<script>
+import ProductCard from '../Common/ProductCard.vue'
+export default {
+  components: {
+    ProductCard
+  }
+}
 </script>
 <template>
   <h1 class="text-center font-bold text-2xl">Products</h1>
