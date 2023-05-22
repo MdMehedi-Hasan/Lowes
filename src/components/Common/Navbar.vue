@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-red-100">
+  <div class="bg-gray-50">
     <div class="container mx-auto navbar px-0">
       <div class="flex-1 cursor-pointer">
-        <a class="normal-case text-xl font-bold">প্রত্যহ</a>
+        <a class="normal-case text-xl font-bold w-32"><img src="../../assets/logo.png" alt=""></a>
       </div>
       <div class="flex-none gap-2">
         <div class="form-control">
