@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage.vue'
 
 <template>
 <HomePage/>
+<RouterView/>
 </template>
 
 <style scoped>
